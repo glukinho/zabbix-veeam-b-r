@@ -11,4 +11,4 @@ Just assign the template to the Veeam B&R host and make ``Timeout = 30`` in ``za
 
 Don't set discovery or items periods too low as PowerShell queries to Veeam are extremely slow, I don't know why.
 
-Tested on Zabbix 3.4.3 and Veeam Backup & Replication 9.5 Update 3.
+Tested on Zabbix 3.4.3 and Veeam Backup & Replication 9.5 Update 3 on Windows Server 2012 R2.
