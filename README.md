@@ -3,7 +3,7 @@
 Zabbix template for Veeam backup & replication jobs. Backup jobs and replication jobs are discovered separately, and each particular job is monitored.
 Trigger rise when:
  - for backup job: last job was not successful 
- - for replication job: last 3 jobs was not successful
+ - for replication job: last 3 job checks was not successful (it means the jobs remains unsuccessful for 3 hours)
 
 No additional files are to be deployed to Veeam host, only Zabbix agent.
 
