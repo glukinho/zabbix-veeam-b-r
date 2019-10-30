@@ -1,5 +1,7 @@
 # zabbix-veeam-b-r
 
+**This template is no longer maintained and works BAD. Please use REST integration instead: https://github.com/glukinho/zabbix-veeam-rest
+
 Zabbix template for Veeam backup & replication jobs. Backup jobs and replication jobs are discovered separately, and each particular job is monitored.
 Trigger rise when:
  - for backup job: last job was not successful 
